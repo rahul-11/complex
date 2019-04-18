@@ -5,7 +5,7 @@ metadata:
 spec:
   secretName: worthero-com
   issuerRef:
-    name: issuer-prod
+    name: letsencrypt-prod
     kind: ClusterIssuer
   commnonName: worthero.com
   dnsNames:
